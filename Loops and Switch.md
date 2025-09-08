@@ -5,10 +5,11 @@ Control flow statements in Dart, such as loops and conditionals, are essential f
 ### For Loop
 The `for` loop is used to execute a block of code a specific number of times. It's useful when the number of iterations is known beforehand.
 
----
-```
 
-### Program
+---
+
+### Example Dart Program
+```
 
 void main() {
 for (int i = 0; i < 5; i++) {
@@ -17,7 +18,9 @@ print('Iteration: $i');
 }
 
 ```
+
 ---
+
 
 - Initializes `i` to 0 and continues as long as `i < 5`.
 - After each iteration, `i` is incremented by 1.
@@ -26,10 +29,9 @@ print('Iteration: $i');
 ### While Loop
 The `while` loop executes a block of code as long as the specified condition is true.
 
----
-```
 
-### Program
+### Example Dart Program
+```
 
 void main() {
 int count = 0;
@@ -40,6 +42,7 @@ count++;
 }
 
 ```
+
 ---
 
 - Checks condition `count < 5`.  
@@ -50,9 +53,10 @@ count++;
 The `do-while` loop ensures the block of code is executed at least once before checking the condition.
 
 ---
+
+### Example Dart Program
 ```
 
-### Program
 
 void main() {
 int count = 0;
@@ -63,7 +67,9 @@ count++;
 }
 
 ```
+
 ---
+
 
 - Executes the block first, then checks `count < 5`.  
 - Prints numbers from 0 to 4, guaranteeing at least one execution.
@@ -72,9 +78,10 @@ count++;
 The `switch` statement evaluates a value against multiple cases and executes the matching one.
 
 ---
+
+### Example Dart Program
 ```
 
-### Program
 
 void main() {
 var day = 3;
@@ -94,7 +101,9 @@ print('Invalid day');
 }
 
 ```
+
 ---
+
 
 - Compares `day` with each case.  
 - Matches `3` and prints "Wednesday".  
@@ -104,9 +113,9 @@ print('Invalid day');
 The `break` statement exits a loop or `switch` early.
 
 ---
-```
 
-### Program
+### Example Dart Program
+```
 
 void main() {
 for (int i = 0; i < 10; i++) {
@@ -118,7 +127,9 @@ print(i);
 }
 
 ```
+
 ---
+
 
 - Prints numbers 0 to 4.  
 - Exits the loop when `i == 5`.
@@ -127,9 +138,9 @@ print(i);
 The `continue` statement skips the current loop iteration and continues with the next.
 
 ---
-```
 
-### Program
+### Example Dart Program
+```
 
 void main() {
 for (int i = 0; i < 5; i++) {
@@ -141,6 +152,7 @@ print(i);
 }
 
 ```
+
 ---
 
 - Skips printing when `i == 2`.  
